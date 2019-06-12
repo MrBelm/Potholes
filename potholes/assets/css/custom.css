@@ -1,0 +1,97 @@
+/*global*/
+body {
+	font-family: 'Roboto Slab', serif;
+}
+
+h2 {
+	color: #314F71;
+}
+
+a {
+	color: #fff;
+}
+
+a:hover {
+	color: #E4731E;
+	text-decoration:none;
+	
+}
+
+/*intro*/
+.jumbotron {
+	background-image: url(../../images/pothole-5.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.jumbotron p {
+	color: #FFF;
+}
+
+/*event*/
+
+/*marketing*/
+.marketing .col-lg-4 {
+	margin-bottom: 1.5rem;
+	text-align: center;
+}
+.marketing h2 {
+	font-weight: 400;
+}
+.marketing .col-lg-4 p {
+	margin-right: .75rem;
+	margin-left: .75rem;
+}
+.btn-secondary {
+	color: #fff;
+	background-color: #314F71;
+	border-color: #314F71
+}
+.btn-secondary:hover {
+	color: #fff;
+	background-color: #E4731E;
+	border-color: #E4731E
+}
+
+/*footer*/
+.footer {
+	background-color: #314F71;
+	padding-top: 2em;
+	}
+	
+.footer p, .footer-copyright {
+	color: #fff;
+}
+
+.footer-copyright {
+	font-size: smaller;
+}
+
+/*social media buttons*/
+.social:hover {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+ }
+.social {
+	-webkit-transform: scale(0.8);
+/* browser variations: */
+	-moz-transform: scale(0.8);
+	-o-transform: scale(0.8);
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+ }
+#social-fb, #social-tw, #social-em {
+	color: #fff;
+ }
+
+#social-fb:hover {
+	color: #3B5998;
+ }
+ #social-tw:hover {
+	color: #4099FF;
+ }
+ #social-em:hover {
+	color: #f39c12;
+ }
